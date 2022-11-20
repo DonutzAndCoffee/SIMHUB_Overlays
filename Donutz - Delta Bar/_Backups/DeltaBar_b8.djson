@@ -1,0 +1,431 @@
+{
+  "$id": "1",
+  "Version": 2,
+  "Id": "246e68b3-33a9-47b6-858a-6fa835e60a10",
+  "BaseHeight": 90,
+  "BaseWidth": 670,
+  "BackgroundColor": "#FF000000",
+  "Screens": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "IsFreezed": false,
+        "InGameScreen": true,
+        "IdleScreen": false,
+        "BackgroundColor": "#FF000000",
+        "IsSelected": true,
+        "Items": {
+          "$id": "4",
+          "$values": [
+            {
+              "$id": "5",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#FF000000",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "6",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "5,5,5,5",
+                "RadiusTopLeft": 5,
+                "RadiusTopRight": 5,
+                "RadiusBottomLeft": 5,
+                "RadiusBottomRight": 5,
+                "Bindings": {
+                  "$id": "7"
+                }
+              },
+              "Height": 34.0,
+              "Left": 0.0,
+              "Opacity": 75.0,
+              "Top": 0.0,
+              "Visible": true,
+              "Width": 670.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "6c1c082e-4612-4b10-a4f7-6e38f17e01a7",
+              "IsFreezed": false,
+              "IsSelected": false,
+              "Name": "RectangleItem0",
+              "RenderingSkip": 0,
+              "Sid": 0,
+              "Bindings": {
+                "$id": "8",
+                "Visible": {
+                  "$id": "9",
+                  "Formula": {
+                    "$id": "10",
+                    "Interpreter": 0,
+                    "Expression": "[PersistantTrackerPlugin.SessionBestLiveDeltaSeconds] != 0 &&\r\n[DataCorePlugin.GameRawData.CurrentPlayer.mInGarageStall] = 0"
+                  },
+                  "StartColor": "#FF000000",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 2,
+                  "TargetPropertyName": "Visible"
+                }
+              }
+            },
+            {
+              "$id": "11",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "ShadowDepth": 0,
+              "ShadowBlur": 0,
+              "ShadowDirection": 315,
+              "ShadowColor": "#FF808080",
+              "FontWeight": "Bold",
+              "TextWrapping": 1,
+              "FontStyle": "Normal",
+              "FontSize": 39.0,
+              "Text": "- : -- : --",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#FF000000",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "12",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "5,5,5,5",
+                "RadiusTopLeft": 5,
+                "RadiusTopRight": 5,
+                "RadiusBottomLeft": 5,
+                "RadiusBottomRight": 5,
+                "Bindings": {
+                  "$id": "13"
+                }
+              },
+              "Height": 40.0,
+              "Left": 259.0,
+              "Opacity": 55.0,
+              "Top": 41.0,
+              "Visible": true,
+              "Width": 165.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "ce10d703-35de-4938-ace9-46cc69dd7e0f",
+              "IsFreezed": false,
+              "IsSelected": true,
+              "Name": "Delta",
+              "RenderingSkip": 0,
+              "Sid": 1,
+              "Bindings": {
+                "$id": "14",
+                "Text": {
+                  "$id": "15",
+                  "FormatString": "0.00",
+                  "Formula": {
+                    "$id": "16",
+                    "Interpreter": 0,
+                    "Expression": "(isnull([PersistantTrackerPlugin.SessionBestLiveDeltaSeconds],0) >=0?'+ ':'')\r\n+format(isnull([PersistantTrackerPlugin.SessionBestLiveDeltaSeconds],0) ,'0.00')\r\n"
+                  },
+                  "StartColor": "#FF000000",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 2,
+                  "TargetPropertyName": "Text"
+                },
+                "TextColor": {
+                  "$id": "17",
+                  "Formula": {
+                    "$id": "18",
+                    "Interpreter": 0,
+                    "Expression": "[PersistantTrackerPlugin.SessionBestLiveDeltaProgressSeconds]"
+                  },
+                  "StartColor": "#FF23D623",
+                  "EnableMiddleColor": true,
+                  "MiddleColor": "#FFFFFFFF",
+                  "MiddleColorValue": 0.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": -0.05,
+                  "EndColorValue": 0.05,
+                  "Mode": 4,
+                  "TargetPropertyName": "TextColor"
+                },
+                "Visible": {
+                  "$id": "19",
+                  "Formula": {
+                    "$id": "20",
+                    "Interpreter": 0,
+                    "Expression": "[PersistantTrackerPlugin.SessionBestLiveDeltaSeconds] != 0 &&\r\n[DataCorePlugin.GameRawData.CurrentPlayer.mInGarageStall] = 0"
+                  },
+                  "StartColor": "#FF000000",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 2,
+                  "TargetPropertyName": "Visible"
+                }
+              }
+            },
+            {
+              "$id": "21",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.LinearGaugeItem, SimHub.Plugins",
+              "AutoSize": false,
+              "AutoSizeScale": 1.0,
+              "GaugeColor": "#FFFF0000",
+              "Minimum": 0.0,
+              "Maximum": 5.0,
+              "Value": 0.0,
+              "Steps": 0.0,
+              "PAW": 0.0,
+              "GaugeAlignment": 0,
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#00453B3B",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "22",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,5,5,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 5,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 5,
+                "Bindings": {
+                  "$id": "23"
+                }
+              },
+              "Height": 32.0,
+              "Left": 335.0,
+              "Opacity": 90.0,
+              "Top": 1.0,
+              "Visible": true,
+              "Width": 333.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "7d90a740-e54a-4b45-a84a-eef0b337b032",
+              "IsFreezed": false,
+              "IsSelected": false,
+              "Name": "Losing",
+              "RenderingSkip": 0,
+              "Sid": 2,
+              "Bindings": {
+                "$id": "24",
+                "Value": {
+                  "$id": "25",
+                  "Formula": {
+                    "$id": "26",
+                    "Interpreter": 1,
+                    "Expression": "var d = $prop('PersistantTrackerPlugin.SessionBestLiveDeltaSeconds')\r\nif(d == null)\r\nreturn ' '\r\nelse \r\nreturn format(d, '0.00')"
+                  },
+                  "StartColor": "#FF000000",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 2,
+                  "TargetPropertyName": "Value"
+                },
+                "GaugeColor": {
+                  "$id": "27",
+                  "Formula": {
+                    "$id": "28",
+                    "Interpreter": 0,
+                    "Expression": "[PersistantTrackerPlugin.SessionBestLiveDeltaProgressSeconds]"
+                  },
+                  "StartColor": "#FF23D623",
+                  "EnableMiddleColor": true,
+                  "MiddleColor": "#FFFFFFFF",
+                  "MiddleColorValue": 0.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": -0.05,
+                  "EndColorValue": 0.05,
+                  "Mode": 4,
+                  "TargetPropertyName": "GaugeColor"
+                },
+                "Visible": {
+                  "$id": "29",
+                  "Formula": {
+                    "$id": "30",
+                    "Interpreter": 0,
+                    "Expression": "[PersistantTrackerPlugin.SessionBestLiveDeltaSeconds] != 0 &&\r\n[DataCorePlugin.GameRawData.CurrentPlayer.mInGarageStall] = 0"
+                  },
+                  "StartColor": "#FF000000",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 2,
+                  "TargetPropertyName": "Visible"
+                }
+              }
+            },
+            {
+              "$id": "31",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.LinearGaugeItem, SimHub.Plugins",
+              "AutoSize": false,
+              "AutoSizeScale": 1.0,
+              "GaugeColor": "#FF40CC2D",
+              "Minimum": 0.0,
+              "Maximum": -5.0,
+              "Value": -1.2,
+              "Steps": 0.0,
+              "PAW": 80.0,
+              "GaugeAlignment": 2,
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#00453B3B",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "32",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "5,0,0,5",
+                "RadiusTopLeft": 5,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 5,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "33"
+                }
+              },
+              "Height": 32.0,
+              "Left": 2.0,
+              "Opacity": 90.0,
+              "Top": 1.0,
+              "Visible": true,
+              "Width": 333.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "7d90a740-e54a-4b45-a84a-eef0b337b032",
+              "IsFreezed": false,
+              "IsSelected": false,
+              "Name": "Gaining",
+              "RenderingSkip": 0,
+              "Sid": 3,
+              "Bindings": {
+                "$id": "34",
+                "Value": {
+                  "$id": "35",
+                  "Formula": {
+                    "$id": "36",
+                    "Interpreter": 1,
+                    "Expression": "var d = $prop('PersistantTrackerPlugin.SessionBestLiveDeltaSeconds')\r\nif(d == null)\r\nreturn ' '\r\nelse \r\nreturn format(d, '0.00')"
+                  },
+                  "StartColor": "#FF000000",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 2,
+                  "TargetPropertyName": "Value"
+                },
+                "GaugeColor": {
+                  "$id": "37",
+                  "Formula": {
+                    "$id": "38",
+                    "Interpreter": 0,
+                    "Expression": "[PersistantTrackerPlugin.SessionBestLiveDeltaProgressSeconds]"
+                  },
+                  "StartColor": "#FF23D623",
+                  "EnableMiddleColor": true,
+                  "MiddleColor": "#FFFFFFFF",
+                  "MiddleColorValue": 0.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": 0.05,
+                  "EndColorValue": -0.05,
+                  "Mode": 4,
+                  "TargetPropertyName": "GaugeColor"
+                },
+                "Visible": {
+                  "$id": "39",
+                  "Formula": {
+                    "$id": "40",
+                    "Interpreter": 0,
+                    "Expression": "[PersistantTrackerPlugin.SessionBestLiveDeltaSeconds] != 0 &&\r\n[DataCorePlugin.GameRawData.CurrentPlayer.mInGarageStall] = 0"
+                  },
+                  "StartColor": "#FF000000",
+                  "EnableMiddleColor": false,
+                  "MiddleColor": "#FF000000",
+                  "MiddleColorValue": 1.0,
+                  "EndColor": "#FFFF0000",
+                  "StartColorValue": 0.0,
+                  "EndColorValue": 1.0,
+                  "Mode": 2,
+                  "TargetPropertyName": "Visible"
+                }
+              }
+            }
+          ]
+        },
+        "Id": "3b6daa08-fb5d-4483-8594-2c51c056f0bf",
+        "Name": "Screen1",
+        "RenderingSkip": 0,
+        "Sid": 0,
+        "Bindings": {
+          "$id": "41"
+        }
+      }
+    ]
+  },
+  "SnapToGrid": false,
+  "HideLabels": true,
+  "GridSize": 10,
+  "SelectedScreen": {
+    "$ref": "3"
+  },
+  "Images": {
+    "$id": "42",
+    "$values": []
+  },
+  "Metadata": {
+    "$id": "43"
+  }
+}

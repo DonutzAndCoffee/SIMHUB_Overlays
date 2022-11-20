@@ -1,0 +1,1300 @@
+{
+  "$id": "1",
+  "Version": 2,
+  "Id": "16f8d0a6-fc1d-4854-84b6-796abb4169f1",
+  "BaseHeight": 99,
+  "BaseWidth": 154,
+  "BackgroundColor": "#FF000000",
+  "Screens": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "RenderingSkip": 0,
+        "IsFreezed": false,
+        "InGameScreen": true,
+        "IdleScreen": false,
+        "BackgroundColor": "#FF000000",
+        "IsSelected": true,
+        "Items": {
+          "$id": "4",
+          "$values": [
+            {
+              "$id": "5",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+              "Height": 99.0,
+              "Width": 154.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "Rotation": 0.0,
+              "Opacity": 100.0,
+              "BorderStyle": {
+                "$id": "6",
+                "AllBorders": 0,
+                "AllCornerRadius": 0,
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "7"
+                },
+                "BindingsFast": {
+                  "$ref": "7"
+                }
+              },
+              "RenderingSkip": 0,
+              "ShowSelection": false,
+              "CanResize": false,
+              "Childrens": {
+                "$id": "8",
+                "$values": [
+                  {
+                    "$id": "9",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#FF000000",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "10",
+                      "AllBorders": 1,
+                      "AllCornerRadius": 5,
+                      "BorderColor": "#00FFFFFF",
+                      "BorderTop": 1,
+                      "BorderBottom": 1,
+                      "BorderLeft": 1,
+                      "BorderRight": 1,
+                      "CornerRadius": "5,5,5,5",
+                      "RadiusTopLeft": 5,
+                      "RadiusTopRight": 5,
+                      "RadiusBottomLeft": 5,
+                      "RadiusBottomRight": 5,
+                      "Bindings": {
+                        "$id": "11"
+                      },
+                      "BindingsFast": {
+                        "$ref": "11"
+                      }
+                    },
+                    "Height": 99.0,
+                    "Left": 0.0,
+                    "Opacity": 75.0,
+                    "Top": 0.0,
+                    "Visible": true,
+                    "Width": 154.0,
+                    "BorderBottom": 1,
+                    "BorderColor": "#00FFFFFF",
+                    "BorderLeft": 1,
+                    "BorderRight": 1,
+                    "BorderTop": 1,
+                    "Id": "858304ae-bbbc-494d-936f-5908b24f447c",
+                    "IsFreezed": false,
+                    "IsSelected": false,
+                    "Name": "LapTimes",
+                    "RenderingSkip": 0,
+                    "Sid": 1,
+                    "Bindings": {
+                      "$id": "12"
+                    },
+                    "BindingsFast": {
+                      "$ref": "12"
+                    }
+                  },
+                  {
+                    "$id": "13",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Height": 24.0,
+                    "Width": 150.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "Opacity": 100.0,
+                    "BorderStyle": {
+                      "$id": "14",
+                      "AllBorders": 0,
+                      "AllCornerRadius": 0,
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "CornerRadius": "0,0,0,0",
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "15"
+                      },
+                      "BindingsFast": {
+                        "$ref": "15"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": false,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "16",
+                      "$values": [
+                        {
+                          "$id": "17",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "18",
+                            "AllBorders": 1,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 1,
+                            "BorderBottom": 1,
+                            "BorderLeft": 1,
+                            "BorderRight": 1,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "19"
+                            },
+                            "BindingsFast": {
+                              "$ref": "19"
+                            }
+                          },
+                          "Height": 24.0,
+                          "Left": 2.0,
+                          "Opacity": 100.0,
+                          "Top": 2.0,
+                          "Visible": true,
+                          "Width": 150.0,
+                          "BorderBottom": 1,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 1,
+                          "BorderRight": 1,
+                          "BorderTop": 1,
+                          "Id": "858304ae-bbbc-494d-936f-5908b24f447c",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "CurrentLapItem",
+                          "RenderingSkip": 0,
+                          "Sid": 3,
+                          "Bindings": {
+                            "$id": "20"
+                          },
+                          "BindingsFast": {
+                            "$ref": "20"
+                          }
+                        },
+                        {
+                          "$id": "21",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 15.0,
+                          "Text": "Current:",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 0,
+                          "VerticalAlignment": 0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "22",
+                            "AllBorders": 0,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "23"
+                            },
+                            "BindingsFast": {
+                              "$ref": "23"
+                            }
+                          },
+                          "Height": 22.0,
+                          "Left": 5.0,
+                          "Opacity": 100.0,
+                          "Top": 3.0,
+                          "Visible": true,
+                          "Width": 59.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "5d3fc57e-ce6c-45f0-8dcf-80126b8e6573",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "CurrentLapLabel",
+                          "RenderingSkip": 0,
+                          "Sid": 4,
+                          "Bindings": {
+                            "$id": "24"
+                          },
+                          "BindingsFast": {
+                            "$ref": "24"
+                          }
+                        },
+                        {
+                          "$id": "25",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 15.0,
+                          "Text": "- : --.---",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 2,
+                          "VerticalAlignment": 0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "26",
+                            "AllBorders": 0,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "27"
+                            },
+                            "BindingsFast": {
+                              "$ref": "27"
+                            }
+                          },
+                          "Height": 22.0,
+                          "Left": 50.0,
+                          "Opacity": 100.0,
+                          "Top": 3.0,
+                          "Visible": true,
+                          "Width": 90.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "5d3fc57e-ce6c-45f0-8dcf-80126b8e6573",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "CurrentLapTime",
+                          "RenderingSkip": 0,
+                          "Sid": 5,
+                          "Bindings": {
+                            "$id": "28",
+                            "Text": {
+                              "$id": "29",
+                              "Formula": {
+                                "$id": "30",
+                                "Interpreter": 0,
+                                "Expression": "replace(format([DataCorePlugin.GameData.NewData.CurrentLapTime],'m\\\\:ss\\\\.fff'),'0:00.000','-:--.--')\r\n\r\n"
+                              },
+                              "StartColor": "#FF000000",
+                              "EnableMiddleColor": false,
+                              "MiddleColor": "#FF000000",
+                              "MiddleColorValue": 1.0,
+                              "EndColor": "#FFFF0000",
+                              "StartColorValue": 0.0,
+                              "EndColorValue": 1.0,
+                              "Mode": 2,
+                              "TargetPropertyName": "Text"
+                            },
+                            "Visible": {
+                              "$id": "31",
+                              "Formula": {
+                                "$id": "32",
+                                "Interpreter": 0,
+                                "Expression": "[DataCorePlugin.GameData.NewData.IsInPitLane] = 0"
+                              },
+                              "StartColor": "#FF000000",
+                              "EnableMiddleColor": false,
+                              "MiddleColor": "#FF000000",
+                              "MiddleColorValue": 1.0,
+                              "EndColor": "#FFFF0000",
+                              "StartColorValue": 0.0,
+                              "EndColorValue": 1.0,
+                              "Mode": 2,
+                              "TargetPropertyName": "Visible"
+                            }
+                          },
+                          "BindingsFast": {
+                            "$ref": "28"
+                          }
+                        }
+                      ]
+                    },
+                    "Group": false,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 2.0,
+                    "Top": 2.0,
+                    "Visible": true,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "cadaa077-7a5b-4130-ad6d-d91168ce46b8",
+                    "IsSelected": false,
+                    "Name": "CurrentLap",
+                    "Sid": 2,
+                    "Bindings": {
+                      "$id": "33"
+                    },
+                    "BindingsFast": {
+                      "$ref": "33"
+                    }
+                  },
+                  {
+                    "$id": "34",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Height": 24.0,
+                    "Width": 150.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "Opacity": 100.0,
+                    "BorderStyle": {
+                      "$id": "35",
+                      "AllBorders": 0,
+                      "AllCornerRadius": 0,
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "CornerRadius": "0,0,0,0",
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "36"
+                      },
+                      "BindingsFast": {
+                        "$ref": "36"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": false,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "37",
+                      "$values": [
+                        {
+                          "$id": "38",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "39",
+                            "AllBorders": 1,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 1,
+                            "BorderBottom": 1,
+                            "BorderLeft": 1,
+                            "BorderRight": 1,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "40"
+                            },
+                            "BindingsFast": {
+                              "$ref": "40"
+                            }
+                          },
+                          "Height": 24.0,
+                          "Left": 2.0,
+                          "Opacity": 100.0,
+                          "Top": 27.0,
+                          "Visible": true,
+                          "Width": 150.0,
+                          "BorderBottom": 1,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 1,
+                          "BorderRight": 1,
+                          "BorderTop": 1,
+                          "Id": "858304ae-bbbc-494d-936f-5908b24f447c",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "LastLapItem",
+                          "RenderingSkip": 0,
+                          "Sid": 7,
+                          "Bindings": {
+                            "$id": "41"
+                          },
+                          "BindingsFast": {
+                            "$ref": "41"
+                          }
+                        },
+                        {
+                          "$id": "42",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 15.0,
+                          "Text": "Last:",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 0,
+                          "VerticalAlignment": 0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "43",
+                            "AllBorders": 0,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "44"
+                            },
+                            "BindingsFast": {
+                              "$ref": "44"
+                            }
+                          },
+                          "Height": 22.0,
+                          "Left": 5.0,
+                          "Opacity": 100.0,
+                          "Top": 28.0,
+                          "Visible": true,
+                          "Width": 59.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "5d3fc57e-ce6c-45f0-8dcf-80126b8e6573",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "LastLapLabel",
+                          "RenderingSkip": 0,
+                          "Sid": 8,
+                          "Bindings": {
+                            "$id": "45"
+                          },
+                          "BindingsFast": {
+                            "$ref": "45"
+                          }
+                        },
+                        {
+                          "$id": "46",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 15.0,
+                          "Text": "- : --.---",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 2,
+                          "VerticalAlignment": 0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "47",
+                            "AllBorders": 0,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "48"
+                            },
+                            "BindingsFast": {
+                              "$ref": "48"
+                            }
+                          },
+                          "Height": 22.0,
+                          "Left": 51.0,
+                          "Opacity": 100.0,
+                          "Top": 27.0,
+                          "Visible": true,
+                          "Width": 90.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "5d3fc57e-ce6c-45f0-8dcf-80126b8e6573",
+                          "IsFreezed": false,
+                          "IsSelected": true,
+                          "Name": "LastLapTime",
+                          "RenderingSkip": 0,
+                          "Sid": 9,
+                          "Bindings": {
+                            "$id": "49",
+                            "Text": {
+                              "$id": "50",
+                              "Formula": {
+                                "$id": "51",
+                                "Interpreter": 0,
+                                "Expression": "replace(format([DataCorePlugin.GameData.NewData.LastLapTime],'m\\\\:ss\\\\.fff'),'0:00.000','-:--.--')"
+                              },
+                              "StartColor": "#FF000000",
+                              "EnableMiddleColor": false,
+                              "MiddleColor": "#FF000000",
+                              "MiddleColorValue": 1.0,
+                              "EndColor": "#FFFF0000",
+                              "StartColorValue": 0.0,
+                              "EndColorValue": 1.0,
+                              "Mode": 2,
+                              "TargetPropertyName": "Text"
+                            }
+                          },
+                          "BindingsFast": {
+                            "$ref": "49"
+                          }
+                        }
+                      ]
+                    },
+                    "Group": false,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 2.0,
+                    "Top": 27.0,
+                    "Visible": true,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "3de8769c-dc60-448b-b2c5-ea2a1dc507f8",
+                    "IsSelected": false,
+                    "Name": "LastLap",
+                    "Sid": 6,
+                    "Bindings": {
+                      "$id": "52"
+                    },
+                    "BindingsFast": {
+                      "$ref": "52"
+                    }
+                  },
+                  {
+                    "$id": "53",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Height": 24.0,
+                    "Width": 150.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "Opacity": 100.0,
+                    "BorderStyle": {
+                      "$id": "54",
+                      "AllBorders": 0,
+                      "AllCornerRadius": 0,
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "CornerRadius": "0,0,0,0",
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "55"
+                      },
+                      "BindingsFast": {
+                        "$ref": "55"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": false,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "56",
+                      "$values": [
+                        {
+                          "$id": "57",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#FF0000CD",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "58",
+                            "AllBorders": 1,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 1,
+                            "BorderBottom": 1,
+                            "BorderLeft": 1,
+                            "BorderRight": 1,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "59"
+                            },
+                            "BindingsFast": {
+                              "$ref": "59"
+                            }
+                          },
+                          "Height": 24.0,
+                          "Left": 2.0,
+                          "Opacity": 60.0,
+                          "Top": 52.0,
+                          "Visible": true,
+                          "Width": 150.0,
+                          "BorderBottom": 1,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 1,
+                          "BorderRight": 1,
+                          "BorderTop": 1,
+                          "Id": "858304ae-bbbc-494d-936f-5908b24f447c",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "PersonalBestItem",
+                          "RenderingSkip": 0,
+                          "Sid": 11,
+                          "Bindings": {
+                            "$id": "60"
+                          },
+                          "BindingsFast": {
+                            "$ref": "60"
+                          }
+                        },
+                        {
+                          "$id": "61",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 15.0,
+                          "Text": "Best:",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 0,
+                          "VerticalAlignment": 0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "62",
+                            "AllBorders": 0,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "63"
+                            },
+                            "BindingsFast": {
+                              "$ref": "63"
+                            }
+                          },
+                          "Height": 22.0,
+                          "Left": 5.0,
+                          "Opacity": 100.0,
+                          "Top": 52.0,
+                          "Visible": true,
+                          "Width": 59.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "5d3fc57e-ce6c-45f0-8dcf-80126b8e6573",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "PersonalBestLabel",
+                          "RenderingSkip": 0,
+                          "Sid": 12,
+                          "Bindings": {
+                            "$id": "64"
+                          },
+                          "BindingsFast": {
+                            "$ref": "64"
+                          }
+                        },
+                        {
+                          "$id": "65",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 15.0,
+                          "Text": "- : --.---",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 2,
+                          "VerticalAlignment": 0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "66",
+                            "AllBorders": 0,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "67"
+                            },
+                            "BindingsFast": {
+                              "$ref": "67"
+                            }
+                          },
+                          "Height": 22.0,
+                          "Left": 51.0,
+                          "Opacity": 100.0,
+                          "Top": 52.0,
+                          "Visible": true,
+                          "Width": 90.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "5d3fc57e-ce6c-45f0-8dcf-80126b8e6573",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "BestLapTime",
+                          "RenderingSkip": 0,
+                          "Sid": 13,
+                          "Bindings": {
+                            "$id": "68",
+                            "Text": {
+                              "$id": "69",
+                              "Formula": {
+                                "$id": "70",
+                                "Interpreter": 0,
+                                "Expression": "replace(format([PersistantTrackerPlugin.SessionBest],'m\\\\:ss\\\\.fff'),'0:00.000','- : -- . --')\r\n\r\n"
+                              },
+                              "StartColor": "#FF000000",
+                              "EnableMiddleColor": false,
+                              "MiddleColor": "#FF000000",
+                              "MiddleColorValue": 1.0,
+                              "EndColor": "#FFFF0000",
+                              "StartColorValue": 0.0,
+                              "EndColorValue": 1.0,
+                              "Mode": 2,
+                              "TargetPropertyName": "Text"
+                            }
+                          },
+                          "BindingsFast": {
+                            "$ref": "68"
+                          }
+                        }
+                      ]
+                    },
+                    "Group": false,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 2.0,
+                    "Top": 52.0,
+                    "Visible": true,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "71053960-c3d5-4a88-b14b-d58ae6ea7e41",
+                    "IsSelected": false,
+                    "Name": "BestLap",
+                    "Sid": 10,
+                    "Bindings": {
+                      "$id": "71"
+                    },
+                    "BindingsFast": {
+                      "$ref": "71"
+                    }
+                  },
+                  {
+                    "$id": "72",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Height": 24.0,
+                    "Width": 150.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "Opacity": 100.0,
+                    "BorderStyle": {
+                      "$id": "73",
+                      "AllBorders": 0,
+                      "AllCornerRadius": 0,
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "CornerRadius": "0,0,0,0",
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "74"
+                      },
+                      "BindingsFast": {
+                        "$ref": "74"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": false,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "75",
+                      "$values": [
+                        {
+                          "$id": "76",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#FF008000",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "77",
+                            "AllBorders": 1,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 1,
+                            "BorderBottom": 1,
+                            "BorderLeft": 1,
+                            "BorderRight": 1,
+                            "CornerRadius": "0,0,3,3",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 3,
+                            "RadiusBottomRight": 3,
+                            "Bindings": {
+                              "$id": "78"
+                            },
+                            "BindingsFast": {
+                              "$ref": "78"
+                            }
+                          },
+                          "Height": 24.0,
+                          "Left": 2.0,
+                          "Opacity": 60.0,
+                          "Top": 73.0,
+                          "Visible": true,
+                          "Width": 150.0,
+                          "BorderBottom": 1,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 1,
+                          "BorderRight": 1,
+                          "BorderTop": 1,
+                          "Id": "858304ae-bbbc-494d-936f-5908b24f447c",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "AllTimeItem",
+                          "RenderingSkip": 0,
+                          "Sid": 15,
+                          "Bindings": {
+                            "$id": "79"
+                          },
+                          "BindingsFast": {
+                            "$ref": "79"
+                          }
+                        },
+                        {
+                          "$id": "80",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 15.0,
+                          "Text": "All Time:",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 0,
+                          "VerticalAlignment": 0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "81",
+                            "AllBorders": 0,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "82"
+                            },
+                            "BindingsFast": {
+                              "$ref": "82"
+                            }
+                          },
+                          "Height": 22.0,
+                          "Left": 5.0,
+                          "Opacity": 100.0,
+                          "Top": 74.0,
+                          "Visible": true,
+                          "Width": 59.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "5d3fc57e-ce6c-45f0-8dcf-80126b8e6573",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "AllTimeBestLabel",
+                          "RenderingSkip": 0,
+                          "Sid": 16,
+                          "Bindings": {
+                            "$id": "83"
+                          },
+                          "BindingsFast": {
+                            "$ref": "83"
+                          }
+                        },
+                        {
+                          "$id": "84",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 15.0,
+                          "Text": "- : --.---",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 2,
+                          "VerticalAlignment": 0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "85",
+                            "AllBorders": 0,
+                            "AllCornerRadius": 0,
+                            "BorderColor": "#00FFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "CornerRadius": "0,0,0,0",
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "86"
+                            },
+                            "BindingsFast": {
+                              "$ref": "86"
+                            }
+                          },
+                          "Height": 22.0,
+                          "Left": 50.0,
+                          "Opacity": 100.0,
+                          "Top": 74.0,
+                          "Visible": true,
+                          "Width": 90.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#00FFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "5d3fc57e-ce6c-45f0-8dcf-80126b8e6573",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "PBLapTime",
+                          "RenderingSkip": 0,
+                          "Sid": 17,
+                          "Bindings": {
+                            "$id": "87",
+                            "Text": {
+                              "$id": "88",
+                              "Formula": {
+                                "$id": "89",
+                                "Interpreter": 0,
+                                "Expression": "replace(format([PersistantTrackerPlugin.AllTimeBest],'m\\\\:ss\\\\.fff'),'0:00.000','- : -- . --')\r\n"
+                              },
+                              "StartColor": "#FF000000",
+                              "EnableMiddleColor": false,
+                              "MiddleColor": "#FF000000",
+                              "MiddleColorValue": 1.0,
+                              "EndColor": "#FFFF0000",
+                              "StartColorValue": 0.0,
+                              "EndColorValue": 1.0,
+                              "Mode": 2,
+                              "TargetPropertyName": "Text"
+                            }
+                          },
+                          "BindingsFast": {
+                            "$ref": "87"
+                          }
+                        }
+                      ]
+                    },
+                    "Group": false,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 2.0,
+                    "Top": 73.0,
+                    "Visible": true,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "bb0c2799-c030-4332-8e00-a2b4f4fe05e0",
+                    "IsSelected": false,
+                    "Name": "PBLapTime",
+                    "Sid": 14,
+                    "Bindings": {
+                      "$id": "90"
+                    },
+                    "BindingsFast": {
+                      "$ref": "90"
+                    }
+                  },
+                  {
+                    "$id": "91",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#FF000000",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "92",
+                      "AllBorders": 0,
+                      "AllCornerRadius": 0,
+                      "BorderColor": "#FF000000",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "CornerRadius": "0,0,0,0",
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "93"
+                      },
+                      "BindingsFast": {
+                        "$ref": "93"
+                      }
+                    },
+                    "Height": 93.0,
+                    "Left": 70.0,
+                    "Opacity": 30.0,
+                    "Top": 4.0,
+                    "Visible": true,
+                    "Width": 4.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FF000000",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "858304ae-bbbc-494d-936f-5908b24f447c",
+                    "IsFreezed": false,
+                    "IsSelected": false,
+                    "Name": "LapTimesAesth",
+                    "RenderingSkip": 0,
+                    "Sid": 18,
+                    "Bindings": {
+                      "$id": "94"
+                    },
+                    "BindingsFast": {
+                      "$ref": "94"
+                    }
+                  }
+                ]
+              },
+              "Group": false,
+              "UseRotation": false,
+              "EnableBlur": false,
+              "Left": 0.0,
+              "Top": 0.0,
+              "Visible": true,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "c5b7a366-d6f1-411a-9ef2-81d0066fe713",
+              "IsSelected": false,
+              "Name": "LapTimes",
+              "Sid": 0,
+              "Bindings": {
+                "$id": "95"
+              },
+              "BindingsFast": {
+                "$ref": "95"
+              }
+            }
+          ]
+        },
+        "Id": "a56d47b3-5f6f-4083-9fdc-a658c5fabd11",
+        "Name": "Screen1",
+        "Sid": 0,
+        "Bindings": {
+          "$id": "96"
+        },
+        "BindingsFast": {
+          "$ref": "96"
+        }
+      }
+    ]
+  },
+  "SnapToGrid": false,
+  "HideLabels": true,
+  "ShowBoundingRectangles": false,
+  "GridSize": 10,
+  "SelectedScreen": {
+    "$ref": "3"
+  },
+  "Images": {
+    "$id": "97",
+    "$values": []
+  },
+  "Metadata": {
+    "$id": "98",
+    "ScreenCount": 0.0,
+    "MainPreviewIndex": 0,
+    "IsOverlay": false
+  },
+  "ShowOnScreenControls": true,
+  "IsOverlay": false,
+  "EnableClickThroughOverlay": true
+}
