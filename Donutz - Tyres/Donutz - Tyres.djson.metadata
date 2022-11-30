@@ -1,0 +1,19 @@
+{
+  "Category": null,
+  "Title": "Donutz - Tyres",
+  "Description": "https://www.racedepartment.com/downloads/rf2-simhub-overlays.55270/",
+  "Author": "Racedepartment - R00b_Driver - tweaked by Donutz",
+  "ScreenCount": 1.0,
+  "InGameScreensIndexs": [
+    0
+  ],
+  "IdleScreensIndexs": [],
+  "MainPreviewIndex": 0,
+  "IsOverlay": true,
+  "Width": 256.0,
+  "Height": 261.0,
+  "OverlaySizeWarning": false,
+  "MetadataVersion": 2.0,
+  "EnableOnDashboardMessaging": true,
+  "PitScreensIndexs": []
+}
